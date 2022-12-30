@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="629.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pourroy.c195.ModifyAppointmentController">
+
+    <children>
+        <Label layoutX="57.0" layoutY="93.0" text="Appointment ID">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Label>
+        <Label layoutX="57.0" layoutY="135.0" text="Title">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Label>
+        <Label layoutX="57.0" layoutY="180.0" text="Description">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Label>
+        <Label layoutX="55.0" layoutY="224.0" text="Location">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Label>
+        <Label layoutX="56.0" layoutY="267.0" text="Contact">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Label>
+        <Label layoutX="53.0" layoutY="308.0" text="Type">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Label>
+        <Label layoutX="56.0" layoutY="354.0" text="Start Date/Time">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Label>
+        <Label layoutX="55.0" layoutY="397.0" text="End Date/Time">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Label>
+        <Label layoutX="56.0" layoutY="439.0" text="Customer ID">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Label>
+        <Label layoutX="58.0" layoutY="483.0" text="User ID">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Label>
+        <Button layoutX="350.0" layoutY="526.0" mnemonicParsing="false" onAction="#onModifyBtn" text="Modify">
+            <font>
+                <Font size="19.0" />
+            </font>
+        </Button>
+        <Button layoutX="467.0" layoutY="526.0" mnemonicParsing="false" onAction="#onCancelBtn" text="Cancel">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Button>
+        <TextField fx:id="appointment_id" layoutX="190.0" layoutY="91.0" promptText="Auto Gen - Disabled" />
+        <TextField fx:id="title" layoutX="122.0" layoutY="133.0" />
+        <TextField fx:id="description" layoutX="174.0" layoutY="178.0" />
+        <TextField fx:id="appointment_location" layoutX="163.0" layoutY="223.0" />
+        <ComboBox fx:id="contact_name" layoutX="146.0" layoutY="265.0" prefWidth="150.0" />
+        <TextField fx:id="type" layoutX="129.0" layoutY="306.0" />
+        <TextField fx:id="start" layoutX="202.0" layoutY="352.0" />
+        <TextField fx:id="end" layoutX="202.0" layoutY="395.0" />
+        <TextField fx:id="customer_id" layoutX="190.0" layoutY="438.0" />
+        <TextField fx:id="user_id" layoutX="190.0" layoutY="438.0" />
+      <Label layoutX="193.0" layoutY="21.0" prefHeight="48.0" prefWidth="259.0" text="Modify Appointment">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField layoutX="153.0" layoutY="482.0" />
+    </children>
+</AnchorPane>
