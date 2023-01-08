@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="432.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pourroy.c195.LoginPageController">
+    <children>
+        <Label fx:id="usernameLabel" layoutX="61.0" layoutY="149.0" prefHeight="43.0" prefWidth="179.0" text="Username" textFill="#212cd0">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label fx:id="passwordLabel" layoutX="61.0" layoutY="235.0" prefHeight="43.0" prefWidth="152.0" text="Password" textFill="#212cd0">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+        <Label fx:id="loginLabel" layoutX="239.0" layoutY="40.0" prefHeight="53.0" prefWidth="179.0" text="Login " textFill="#1f2fdd">
+            <font>
+                <Font size="36.0" />
+            </font>
+        </Label>
+        <TextField fx:id="usernameField" layoutX="251.0" layoutY="149.0" prefHeight="43.0" prefWidth="244.0" promptText="Enter username " />
+        <TextField fx:id="passwordField" layoutX="251.0" layoutY="235.0" prefHeight="43.0" prefWidth="244.0" promptText="Enter password" />
+        <Button fx:id="loginBtn" layoutX="137.0" layoutY="370.0" mnemonicParsing="false" onAction="#onLoginButton" prefHeight="34.0" prefWidth="79.0" text="Login" textFill="#000307" />
+        <Button fx:id="exitBtn" layoutX="348.0" layoutY="370.0" mnemonicParsing="false" onAction="#onExitButton" prefHeight="34.0" prefWidth="79.0" text="Exit" textFill="#000307" />
+      <Label fx:id="timeZone" layoutX="251.0" layoutY="296.0" prefHeight="43.0" prefWidth="224.0" text="Label">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="errorMessageBlankFields" layoutX="73.0" layoutY="58.0" text="Label" />
+      <Label fx:id="error" layoutX="73.0" layoutY="85.0" text="Label" />
+      <Label fx:id="errorWrongLogin" layoutX="73.0" layoutY="32.0" text="Label" />
+    </children>
+</AnchorPane>
