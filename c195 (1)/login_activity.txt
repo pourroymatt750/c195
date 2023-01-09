@@ -1,9 +1,0 @@
-Username: test, Date and Time: 2023-01-07T16:39:01.743046900, Login Success/Failure: Success
-Username: b, Date and Time: 2023-01-07T16:40:11.705827900, Login Success/Failure: Failure
-Username: test, Date and Time: 2023-01-07T18:53:44.864794800, Login Success/Failure: Success
-Username: test, Date and Time: 2023-01-07T18:58:39.506833100, Login Success/Failure: Success
-Username: test, Date and Time: 2023-01-07T19:44:17.915301700, Login Success/Failure: Success
-Username: test, Date and Time: 2023-01-07T19:45:36.943501200, Login Success/Failure: Success
-Username: test, Date and Time: 2023-01-07T20:01:52.721156400, Login Success/Failure: Success
-Username: test, Date and Time: 2023-01-07T20:24:18.201795100, Login Success/Failure: Success
-Username: test, Date and Time: 2023-01-07T20:26:10.823904300, Login Success/Failure: Success
